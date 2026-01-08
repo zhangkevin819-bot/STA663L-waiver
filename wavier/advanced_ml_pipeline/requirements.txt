@@ -1,0 +1,61 @@
+# Core Dependencies
+numpy>=1.24.0
+polars>=0.20.0
+pandas>=2.0.0
+
+# Machine Learning
+torch>=2.1.0
+torchvision>=0.16.0
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+optax>=0.1.7
+jax[cpu]>=0.4.20
+
+# Deep Learning & Transformers
+transformers>=4.35.0
+accelerate>=0.24.0
+einops>=0.7.0
+
+# Probabilistic Programming
+pymc>=5.10.0
+arviz>=0.17.0
+cmdstanpy>=1.2.0
+
+# Data Validation & Types
+pydantic>=2.5.0
+pandera>=0.17.0
+
+# Configuration & Logging
+hydra-core>=1.3.0
+loguru>=0.7.0
+python-dotenv>=1.0.0
+
+# API & Serving
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic-settings>=2.1.0
+
+# MLOps
+mlflow>=2.9.0
+optuna>=3.4.0
+wandb>=0.16.0
+
+# Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+
+# Development & Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.0
+hypothesis>=6.92.0
+black>=23.11.0
+mypy>=1.7.0
+ruff>=0.1.6
+
+# Utilities
+tqdm>=4.66.0
+rich>=13.7.0
+typer>=0.9.0
+httpx>=0.25.0
